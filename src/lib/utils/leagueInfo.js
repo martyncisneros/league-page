@@ -388,7 +388,7 @@ export const managers = [
     "mode": "Dynasty",
     "rival": {
       "name": "nobody,
-      "link": null
+      "link": null,
       "image": null
     },
     "favoritePlayer": 3164,
