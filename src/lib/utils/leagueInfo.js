@@ -52,14 +52,14 @@ export const managers = [
     "tookOver": null,
     "location": "Brooklyn, NY",
     "bio": "You can't spell dispensary without nips. I like both.",
-    "photo": "/managers/matt_m.jpg",
+    "photo": "/managers/matt_m.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "az",
     "mode": "Win Now",
     "rival": {
       "name": "Andrew Boravay",
       "link": #,
-      "image": "/managers/boravay.jpg"
+      "image": "/managers/boravay.jpeg"
     },
     "favoritePlayer": 2078,
     "valuePosition": "WR",
@@ -74,14 +74,14 @@ export const managers = [
     "tookOver": null,
     "location": "San Diego, CA",
     "bio": "Still dreaming of One Nation Under GODwin.",
-    "photo": "/managers/alan.jpg",
+    "photo": "/managers/alan.jpeg",
     "fantasyStart": 2018,
     "favoriteTeam": "dal",
     "mode": "Win Now",
     "rival": {
       "name": "Mark Huerta",
       "link": 2,
-      "image": "/managers/mark.jpg"
+      "image": "/managers/mark.jpeg"
     },
     "favoritePlayer": 6786,
     "valuePosition": "RB",
@@ -96,14 +96,14 @@ export const managers = [
     "tookOver": null,
     "location": "Blacksburg, VA",
     "bio": "I'm 0-3 against Eazy Es in the finals.",
-    "photo": "/managers/mark.jpg",
+    "photo": "/managers/mark.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "dal",
     "mode": "Win Now",
     "rival": {
       "name": "Martin Cisneros",
       "link": 15,
-      "image": "/managers/martin.png"
+      "image": "/managers/martin.jpeg"
     },
     "favoritePlayer": 3294,
     "valuePosition": "WR",
@@ -118,14 +118,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I'm the commish bitch.",
-    "photo": "/managers/joe.jpg",
+    "photo": "/managers/joe.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "nor",
     "mode": "Rebuild",
     "rival": {
       "name": "Adam Polson",
       "link": 11,
-      "image": "/managers/adam.jpg"
+      "image": "/managers/adam.jpeg"
     },
     "favoritePlayer": 4039,
     "valuePosition": "WR",
@@ -140,14 +140,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "Mr. Toilet Bowl, I'm the shit.",
-    "photo": "/managers/jordan.jpg",
+    "photo": "/managers/jordan.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "phi",
     "mode": "Rebuild",
     "rival": {
       "name": "Ty Callahan",
       "link": 14,
-      "image": "/managers/ty.jpg"
+      "image": "/managers/ty.jpeg"
     },
     "favoritePlayer": 7525,
     "valuePosition": "TE",
@@ -162,14 +162,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I stay game ready.",
-    "photo": "/managers/boravay.jpg",
+    "photo": "/managers/boravay.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "ne",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Mcdermand",
       "link": 0,
-      "image": "/managers/matt_m.jpg"
+      "image": "/managers/matt_m.jpeg"
     },
     "favoritePlayer": 167,
     "valuePosition": "RB",
@@ -184,14 +184,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I'm the Chief Keef.",
-    "photo": "/managers/andrew.jpg",
+    "photo": "/managers/andrew.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "kc",
     "mode": "Win Now",
     "rival": {
       "name": "Nick Heitzman",
       "link": 10,
-      "image": "/managers/nick.jpg"
+      "image": "/managers/nick.jpeg"
     },
     "favoritePlayer": 7543,
     "valuePosition": "WR",
@@ -206,14 +206,14 @@ export const managers = [
     "tookOver": null,
     "location": "Stanford, CT",
     "bio": "Go Bucking Broncos",
-    "photo": "/managers/matt_b.jpg",
+    "photo": "/managers/matt_b.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "ne",
     "mode": "Rebuild",
     "rival": {
       "name": "Brandon Wellbourn",
       "link": 8,
-      "image": "/managers/brandon.png"
+      "image": "/managers/brandon.jpeg"
     },
     "favoritePlayer": 6794,
     "valuePosition": "WR",
@@ -228,14 +228,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They me poppa doc.",
-    "photo": "/managers/brandon.jpg",
+    "photo": "/managers/brandon.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "phi",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Blumenreich",
       "link": 7,
-      "image": "/managers/matt_b.jpg"
+      "image": "/managers/matt_b.jpeg"
     },
     "favoritePlayer": 3321,
     "valuePosition": "RB",
@@ -250,14 +250,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "BBQ master and fantasy football guru.",
-    "photo": "/managers/zach.jpg",
+    "photo": "/managers/zach.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "az",
     "mode": "Rebuild",
     "rival": {
       "name": "Matt Carroll",
       "link": 13,
-      "image": "/managers/matt_c.jpg"
+      "image": "/managers/matt_c.jpeg"
     },
     "favoritePlayer": 4866,
     "valuePosition": "QB",
@@ -272,14 +272,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "Lik Ma Rich Dick",
-    "photo": "/managers/nick.jpg",
+    "photo": "/managers/nick.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "az",
     "mode": "Win Now",
     "rival": {
       "name": "Josh Brown",
       "link": 12,
-      "image": "/managers/josh.jpg"
+      "image": "/managers/josh.jpeg"
     },
     "favoritePlayer": 11632,
     "valuePosition": "WR",
@@ -294,14 +294,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They call me MR. Two Time",
-    "photo": "/managers/adam.jpg",
+    "photo": "/managers/adam.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "az",
     "mode": "Win Now",
     "rival": {
       "name": "Joe Krawzyk",
       "link": 3,
-      "image": "/managers/joe.jpg"
+      "image": "/managers/joe.jpeg"
     },
     "favoritePlayer": 1466,
     "valuePosition": "TE",
@@ -316,14 +316,14 @@ export const managers = [
     "tookOver": null,
     "location": "Seattle, WA",
     "bio": "Seahawks fan trying to bring home the trophy.",
-    "photo": "/managers/josh.jpg",
+    "photo": "/managers/josh.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "sea",
     "mode": "Rebuild",
     "rival": {
       "name": "Nick Heitzman",
       "link": 10,
-      "image": "/managers/nick.jpg"
+      "image": "/managers/nick.jpeg"
     },
     "favoritePlayer": 6904,
     "valuePosition": "WR",
@@ -338,14 +338,14 @@ export const managers = [
     "tookOver": null,
     "location": "Los Angeles, CA",
     "bio": "Pacific time zone fantasy dominator.",
-    "photo": "/managers/matt_c.jpg",
+    "photo": "/managers/matt_c.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "sf",
     "mode": "Win Now",
     "rival": {
       "name": "Zach Decke",
       "link": 9,
-      "image": "/managers/zach.jpg"
+      "image": "/managers/zach.jpeg"
     },
     "favoritePlayer": 7049,
     "valuePosition": "WR",
@@ -360,14 +360,14 @@ export const managers = [
     "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They call me MR. Bachelor",
-    "photo": "/managers/ty.jpg",
+    "photo": "/managers/ty.jpeg",
     "fantasyStart": 2014,
     "favoriteTeam": "az",
     "mode": "Rebuild",
     "rival": {
       "name": "Jordan Walker",
       "link": #,
-      "image": "/managers/jordan.jpg"
+      "image": "/managers/jordan.jpeg"
     },
     "favoritePlayer": 8150,
     "valuePosition": "QB",
@@ -382,7 +382,7 @@ export const managers = [
     "tookOver": null,
     "location": "Buenos Aires, ARG",
     "bio": "3X Champ",
-    "photo": "/managers/martin.jpg",
+    "photo": "/managers/martin.jpeg",
     "fantasyStart": 2016,
     "favoriteTeam": "none",
     "mode": "Dynasty",
