@@ -7,12 +7,46 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+# Arizona Keeper League
+
+Established in 2014, the Arizona Keeper League has been the battleground for fantasy football supremacy for over a decade. This highly competitive league features 16 dedicated team owners, each vying for glory and bragging rights.
+
+## League Overview
+
+- **Founded:** 2014
+- **Teams:** 16
+- **Format:** Keeper League
+
+## About Us
+
+The Arizona Keeper League isn't just a fantasy football competition; it's a tradition that has stood the test of time. For ten seasons and counting, our league has brought together friends, rivals, and football enthusiasts from across the Grand Canyon State.
+
+Our 16-team format ensures that every roster decision counts and every waiver wire pickup could be the difference between championship glory and bitter defeat. With the keeper aspect adding an extra layer of strategy, owners must balance short-term success with long-term planning.
+
+## Champions
+
+Our league has crowned several champions since its inception. Here's a list of our past winners:
+
+| Year | Owner | Team Name |
+|------|-------|-----------|
+| 2014 | Adam Polson | The C.J. Andersons |
+| 2015 | Matt McDermand | Matt McD's Championship Nips |
+| 2016 | Martin Cisneros | Eazy Es |
+| 2017 | Mark Huerta | For Whom the Bell Tolls |
+| 2018 | Martin Cisneros | Eazy Es |
+| 2019 | Alan Ayon | One Nation Under GODwin |
+| 2020 | Martin Cisneros | Eazy Es |
+| 2021 | Joe Krawzyk | Kings Kupp |
+| 2022 | Matt Blumenreich | Bucking Broncos |
+| 2023 | Adam Polson | The Stack |
+
+Our champions showcase the league's creativity and competitiveness. Noteworthy are Martin Cisneros's early dynasty (2016-2020) and the recent emergence of new champions. Remarkably, Adam Polson claimed both the inaugural 2014 and latest 2023 titles with different teams.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
 `;
 
 /*   STEP 3   */
