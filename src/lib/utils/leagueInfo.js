@@ -7,11 +7,23 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const slothStatsEmbed = `
-<iframe src="https://www.slothstats.com/report?leagueId=1063295156176134144&startWeek=1&endWeek=3" width="100%" height="1200" style="max-width: 100%; border: none;"></iframe>
+<div style="width: 100%; overflow-x: auto;">
+  <iframe src="https://www.slothstats.com/report?leagueId=1063295156176134144&startWeek=1&endWeek=3&page=1" style="width: 1px; min-width: 100%; height: 1200px; border: none;"></iframe>
+</div>
 `;
 
 export const homepageText = `
-${slothStatsEmbed}
+<style>
+  .slothstats-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+</style>
+
+<div class="slothstats-container">
+  ${slothStatsEmbed}
+</div>
 
 <p>Established in 2014, the Arizona Keeper League has been the battleground for fantasy football supremacy for over a decade. This highly competitive league features 16 dedicated team owners, each vying for glory and bragging rights.</p>
 
@@ -41,14 +53,6 @@ ${slothStatsEmbed}
 `;
 
 /*   STEP 3   */
-/*
-3 managers as an example. Uncomment (remove the //) before each line to make it live code
-If you're having trouble, reference the Training Wheels' Manager Section
-https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
-*/
-
-// To omit an optional field, set it's value to null
-
 export const managers = [
   /*
   {
