@@ -107,7 +107,7 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "managerID": "601205387269570560",
+    "managerID": "78960474171260928",
     "name": "Joe Krawzyk",
     "location": "Phoenix, AZ",
     "bio": "I'm the commish bitch.",
