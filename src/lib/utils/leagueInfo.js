@@ -53,7 +53,6 @@ export const managers = [
     "bio": "You can't spell dispensary without nips. I like both.",
     "photo": "/managers/matt_m.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Andrew Boravay",
@@ -74,7 +73,6 @@ export const managers = [
     "bio": "Still dreaming of One Nation Under GODwin.",
     "photo": "/managers/alan.jpeg",
     "fantasyStart": 2018,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Mark Huerta",
@@ -95,7 +93,6 @@ export const managers = [
     "bio": "I'm 0-3 against Eazy Es in the finals.",
     "photo": "/managers/mark.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Martin Cisneros",
@@ -116,7 +113,6 @@ export const managers = [
     "bio": "I'm the commish bitch.",
     "photo": "/managers/joe.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Adam Polson",
@@ -137,7 +133,6 @@ export const managers = [
     "bio": "Mr. Toilet Bowl, I'm the shit.",
     "photo": "/managers/jordan.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Ty Callahan",
@@ -158,7 +153,6 @@ export const managers = [
     "bio": "I stay game ready.",
     "photo": "/managers/boravay.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Mcdermand",
@@ -179,7 +173,6 @@ export const managers = [
     "bio": "I'm the Chief Keef.",
     "photo": "/managers/andrew.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyg",
     "mode": "Win Now",
     "rival": {
       "name": "Nick Heitzman",
@@ -200,7 +193,6 @@ export const managers = [
     "bio": "Go Bucking Broncos",
     "photo": "/managers/matt_b.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Brandon Wellbourn",
@@ -221,7 +213,6 @@ export const managers = [
     "bio": "They me poppa doc.",
     "photo": "/managers/brandon.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Blumenreich",
@@ -242,7 +233,6 @@ export const managers = [
     "bio": "BBQ master and fantasy football guru.",
     "photo": "/managers/zach.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Matt Carroll",
@@ -263,7 +253,6 @@ export const managers = [
     "bio": "Lik Ma Rich Dick",
     "photo": "/managers/nick.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Josh Brown",
@@ -284,7 +273,6 @@ export const managers = [
     "bio": "They call me MR. Two Time",
     "photo": "/managers/adam.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Joe Krawzyk",
@@ -305,7 +293,6 @@ export const managers = [
     "bio": "Seahawks fan trying to bring home the trophy.",
     "photo": "/managers/josh.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Nick Heitzman",
@@ -326,7 +313,6 @@ export const managers = [
     "bio": "Pacific time zone fantasy dominator.",
     "photo": "/managers/matt_c.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Zach Decke",
