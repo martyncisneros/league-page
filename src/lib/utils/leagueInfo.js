@@ -57,7 +57,14 @@ export const managers = [
         "name": "Andrew Boravay",
         "link": 5,
         "image": "/managers/test.jpeg"
-      }
+      },
+      "favoritePlayer": 2078,
+      "valuePosition": "WR",
+      "rookieOrVets": "Vets",
+      "philosophy": "Just look at the nips. They'll tell you everything you need to know.",
+      "tradingScale": 10,
+      "preferredContact": "Text"
+    }
   ]
 ]
   
