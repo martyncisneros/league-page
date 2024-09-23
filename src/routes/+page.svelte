@@ -127,7 +127,7 @@
 <div id="home">
     <div id="main">
         <div class="text">
-            <h6>{leagueName}</h6>
+            <!-- <h6>{leagueName}</h6> --> <!-- Removed title -->
             <div class="slothstats-wrapper">
                 {@html homepageText}
             </div>
