@@ -14,14 +14,12 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        overflow-y: hidden;
         z-index: 1;
     }
 
     #main {
-        flex-grow: 1;
-        min-width: 320px;
-        margin: 0 auto;
+        order: 1;
+        width: 100%;
         padding: 60px 0;
     }
 
@@ -32,6 +30,7 @@
     }
 
     .leagueData {
+        order: 2;
         width: 100%;
         background-color: var(--ebebeb);
         border-left: var(--eee);
@@ -41,14 +40,19 @@
     @media (min-width: 951px) {
         #home {
             flex-direction: row;
-            flex-wrap: nowrap;
+            align-items: flex-start;
+        }
+
+        #main {
+            flex: 1;
+            order: 1;
         }
 
         .leagueData {
+            order: 2;
             width: 470px;
             min-width: 470px;
             max-width: 470px;
-            min-height: 100%;
             box-shadow: inset 8px 0px 6px -6px rgb(0 0 0 / 24%);
         }
     }
