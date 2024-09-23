@@ -7,8 +7,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const slothStatsEmbed = `
-<div style="width: 100%; overflow-x: auto;">
-  <iframe src="https://www.slothstats.com/report?leagueId=1063295156176134144&startWeek=1&endWeek=3&page=1" style="width: 1px; min-width: 100%; height: 1200px; border: none;"></iframe>
+<div class="slothstats-wrapper">
+  <iframe src="https://www.slothstats.com/report?leagueId=1063295156176134144&startWeek=1&endWeek=3&page=1" style="width: 100%; height: 1200px; border: none;"></iframe>
 </div>
 `;
 
