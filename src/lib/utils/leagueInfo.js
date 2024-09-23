@@ -43,10 +43,12 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 // To omit an optional field, set it's value to null
 
- /*
+ 
 
 export const managers = [
 
+/*
+ 
 [
   {
     "managerID": "472122103215157248",
@@ -369,9 +371,11 @@ export const managers = [
     "preferredContact": "Text"
   }
 ]
+
+  */
     
   ]
-  */
+
   
   /*   !!  !!  IMPORTANT  !!  !! */
   /*
