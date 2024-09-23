@@ -387,7 +387,7 @@ export const managers = [
     "favoriteTeam": "none",
     "mode": "Dynasty",
     "rival": {
-      "name": "nobody,
+      "name": "nobody",
       "link": null,
       "image": "everyone.png"
     },
