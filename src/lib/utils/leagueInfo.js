@@ -47,14 +47,13 @@ export const managers = [
 
 [
   {
-    "roster": 1,
+    "managerID": "472122103215157248",
     "name": "Matt Mcdermand",
-    "tookOver": null,
     "location": "Brooklyn, NY",
     "bio": "You can't spell dispensary without nips. I like both.",
     "photo": "/managers/matt_m.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "az",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Andrew Boravay",
@@ -69,14 +68,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 2,
+    "managerID": "364549014668136448",
     "name": "Alan Ayon",
-    "tookOver": null,
     "location": "San Diego, CA",
     "bio": "Still dreaming of One Nation Under GODwin.",
     "photo": "/managers/alan.jpeg",
     "fantasyStart": 2018,
-    "favoriteTeam": "dal",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Mark Huerta",
@@ -91,14 +89,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 3,
+    "managerID": "412010593113886720",
     "name": "Mark Huerta",
-    "tookOver": null,
     "location": "Blacksburg, VA",
     "bio": "I'm 0-3 against Eazy Es in the finals.",
     "photo": "/managers/mark.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "dal",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Martin Cisneros",
@@ -113,14 +110,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 4,
+    "managerID": "601205387269570560",
     "name": "Joe Krawzyk",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I'm the commish bitch.",
     "photo": "/managers/joe.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "nor",
+    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Adam Polson",
@@ -135,14 +131,13 @@ export const managers = [
     "preferredContact": "FaceTime"
   },
   {
-    "roster": 5,
+    "managerID": "463483985771622400",
     "name": "Jordan Walker",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "Mr. Toilet Bowl, I'm the shit.",
     "photo": "/managers/jordan.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "phi",
+    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Ty Callahan",
@@ -157,14 +152,13 @@ export const managers = [
     "preferredContact": "Phone Call"
   },
   {
-    "roster": 6,
+    "managerID": "83617934131740672",
     "name": "Andrew Boravay",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I stay game ready.",
     "photo": "/managers/boravay.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "ne",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Mcdermand",
@@ -179,14 +173,13 @@ export const managers = [
     "preferredContact": "Discord"
   },
   {
-    "roster": 7,
+    "managerID": "94902624901808128",
     "name": "Andrew Carlson",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "I'm the Chief Keef.",
     "photo": "/managers/andrew.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "kc",
+    "favoriteTeam": "nyg",
     "mode": "Win Now",
     "rival": {
       "name": "Nick Heitzman",
@@ -201,14 +194,13 @@ export const managers = [
     "preferredContact": "Discord"
   },
   {
-    "roster": 8,
+    "managerID": "473908768065712128",
     "name": "Matt Blumenreich",
-    "tookOver": null,
     "location": "Stanford, CT",
     "bio": "Go Bucking Broncos",
     "photo": "/managers/matt_b.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "ne",
+    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Brandon Wellbourn",
@@ -223,14 +215,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 9,
+    "managerID": "473589039220387840",
     "name": "Brandon Wellbourn",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They me poppa doc.",
     "photo": "/managers/brandon.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "phi",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Matt Blumenreich",
@@ -245,14 +236,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 10,
+    "managerID": "473564782994124800",
     "name": "Zach Decke",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "BBQ master and fantasy football guru.",
     "photo": "/managers/zach.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "az",
+    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Matt Carroll",
@@ -267,14 +257,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 11,
+    "managerID": "458785993529487360",
     "name": "Nick Heitzman",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "Lik Ma Rich Dick",
     "photo": "/managers/nick.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "az",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Josh Brown",
@@ -289,14 +278,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 12,
+    "managerID": "472168988340645888",
     "name": "Adam Polson",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They call me MR. Two Time",
     "photo": "/managers/adam.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "az",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Joe Krawzyk",
@@ -311,14 +299,13 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 13,
+    "managerID": "473908369271287808",
     "name": "Josh Brown",
-    "tookOver": null,
     "location": "Seattle, WA",
     "bio": "Seahawks fan trying to bring home the trophy.",
     "photo": "/managers/josh.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "sea",
+    "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
       "name": "Nick Heitzman",
@@ -333,14 +320,13 @@ export const managers = [
     "preferredContact": "Discord"
   },
   {
-    "roster": 14,
+    "managerID": "381887544524132352",
     "name": "Matt Carroll",
-    "tookOver": null,
     "location": "Los Angeles, CA",
     "bio": "Pacific time zone fantasy dominator.",
     "photo": "/managers/matt_c.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "sf",
+    "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
       "name": "Zach Decke",
@@ -355,14 +341,12 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 15,
+    "managerID": "601205387269570560",
     "name": "Ty Callahan",
-    "tookOver": null,
     "location": "Phoenix, AZ",
     "bio": "They call me MR. Bachelor",
     "photo": "/managers/ty.jpeg",
     "fantasyStart": 2014,
-    "favoriteTeam": "az",
     "mode": "Rebuild",
     "rival": {
       "name": "Jordan Walker",
@@ -377,19 +361,17 @@ export const managers = [
     "preferredContact": "Text"
   },
   {
-    "roster": 16,
+    "managerID": "341628238017105920",
     "name": "Martin Cisneros",
-    "tookOver": null,
     "location": "Buenos Aires, ARG",
     "bio": "3X Champ",
     "photo": "/managers/martin.jpeg",
     "fantasyStart": 2016,
-    "favoriteTeam": "none",
     "mode": "Dynasty",
     "rival": {
       "name": "nobody",
       "link": null,
-      "image": "everyone.png"
+      "image": "question.png"
     },
     "favoritePlayer": 3164,
     "valuePosition": "RB",
