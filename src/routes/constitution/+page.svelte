@@ -1,7 +1,5 @@
 <script>
-    let one, oneOne, oneTwo, oneThree, oneFour, oneFive, oneSix, oneSeven, oneEight, oneNine, oneTen;
-    let two, twoOne, twoTwo, twoThree, twoFour, twoFive, twoSix, twoSeven, twoEight, twoNine, twoTen;
-    let three, threeOne;
+    let one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty, twentyOne, twentyTwo, twentyThree, twentyFour, twentyFive, twentySix, twentySeven, twentyEight;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -123,7 +121,48 @@
         
         <li bind:this={ten}>A draft lottery determines the first four (4) picks of each keeper round as well as all other even numbered rounds. Accordingly, the draft lottery also necessarily determines the last four (4) picks of odd numbered rounds.</li>
         
-        <!-- Continue with the rest of the bylaws... -->
+        <li bind:this={eleven}>The draft lottery percentages are 40%/30%/20%/10% for the last place, second-to-last place, third-to-last place, and fourth-to-last place finishers, respectively.</li>
+        
+        <li bind:this={twelve}>The first three rounds of the draft are keeper rounds. For instance, if a team keeps two (2) players, it cannot select in the first two keeper rounds, but retains the right to draft a player from the available draft pool in the third keeper round.</li>
+        
+        <li bind:this={thirteen}>Draft picks are freely transferable. Draft pick trades are limited to draft picks for the following season and must be posted by one of the transacting teams to GroupMe and Facebook. In addition to pre-draft trades, a team may trade draft picks during the draft or even agree-in-principle to a trade, subject to the availability of a certain player with the contemplated pick. A team cannot trade a draft pick that it does not possess. For instance, if a team has two (2) keepers, its first available draft pick to trade is for the third keeper round.</li>
+        
+        <li bind:this={fourteen}>Each team starts the season with $100 Free Agent Acquisition Budget ("FAAB").</li>
+        
+        <li bind:this={fifteen}>The Free Agent Acquisition deadline is 12 pm EST on each Wednesday, Thursday, Friday, Saturday, Sunday, and Monday.</li>
+        
+        <li bind:this={sixteen}>The free agent acquisition tiebreaker is based on inverse standings.</li>
+        
+        <li bind:this={seventeen}>The tiebreaker for a matchup (tie score) is determined by ESPN.</li>
+        
+        <li bind:this={eighteen}>The team receiving the lowest score for a weekly matchup, including the playoffs, is required to publish a league note—to GroupMe or ESPN—before kickoff of the first scheduled Sunday game (in the United States) for that week. Punishment for a non-excused, untimely note is $1 FAAB per hour from the posting deadline.</li>
+        
+        <li bind:this={nineteen}>If a player is accidently dropped from a roster, the commissioner shall reverse the accidental transaction upon prompt request by a team.</li>
+        
+        <li bind:this={twenty}>The trade deadline is set for the last day before week ten (10) of the NFL season.</li>
+        
+        <li bind:this={twentyOne}>Trades automatically process without the requirement of league approval. In his discretion, the commissioner will veto manifestly unfair trades, including but not limited to collusion, such as trading players with the intent to subsequently trade any so acquired player back to its prior team.</li>
+        
+        <li bind:this={twentyTwo}>The top six (6) teams make the playoffs, with the top two teams receiving bye weeks. The playoff matchups are based on regular season standings, with total fantasy points scored as the tiebreaker.</li>
+        
+        <li bind:this={twentyThree}>Rule amendments must be proposed to the commissioner on GroupMe or Facebook. The commissioner may also propose rule amendments on GroupMe or Facebook.</li>
+        
+        <li bind:this={twentyFour}>Following a rule amendment proposal, the commissioner will create a voting poll on a voting platform of the commissioner's choosing. The commissioner shall notify teams about pending votes on GroupMe and Facebook. Voting polls are set for forty-eight (48) hours, and all teams are expected to vote.</li>
+        
+        <li bind:this={twentyFive}>A "non-material" rule amendment requires a simple majority of nine (9) votes. A "non-material" rule amendment is every rule amendment or other league modification not specially defined as "material" in paragraph 25 or otherwise designated by the commissioner as "material." A "non-material" rule amendment becomes effective immediately.</li>
+        
+        <li bind:this={twentySix}>A "material" rule amendment requires a super-majority of eleven (11) votes. A "material" rule amendment is a rule amendment that concerns the following subject matter:
+            <ul>
+                <li>Addition of a new team as a replacement for a withdrawing team</li>
+                <li>Annual team fee</li>
+                <li>League Expansion</li>
+                <li>Draft lottery/order</li>
+                <li>Number of keepers</li>
+            </ul>
+            <p>Moreover, the commissioner, in his discretion, may designate a rule amendment as "material." A "material" rule amendment does not become effective until the following season, with the exception of (1) the number of keepers on a team and (2) draft lottery/order, which require the completion of an entire keeper league season before implementation.</p>
+        </li>
+        
+        <li bind:this={twentySeven}>If team participation for a particular vote is inadequate (less than twelve (12) votes casted), the commissioner, in his discretion, can find that the required number of votes would have been casted for a rule amendment if all teams had voted.</li>
         
         <li bind:this={twentyEight}>These official bylaws will be revised as needed based on rule amendments or other significant changes in the league. The updated official bylaws will be posted to GroupMe and Facebook.</li>
     </ol>
