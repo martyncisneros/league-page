@@ -1,8 +1,8 @@
 <script>
-	import LinearProgress from '@smui/linear-progress';
-	import { getNflState, leagueName, getAwards, getLeagueTeamManagers, homepageText, managers, gotoManager, enableBlog, waitForAll } from '$lib/utils/helper';
-	import { Transactions, PowerRankings, HomePost} from '$lib/components';
-	import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
+    import LinearProgress from '@smui/linear-progress';
+    import { getNflState, leagueName, getAwards, getLeagueTeamManagers, homepageText, managers, gotoManager, enableBlog, waitForAll } from '$lib/utils/helper';
+    import { Transactions, PowerRankings, HomePost } from '$lib/components';
+    import { getAvatarFromTeamManagers, getTeamFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 
     const nflState = getNflState();
     const podiumsData = getAwards();
@@ -61,7 +61,7 @@
 
     #currentChamp {
         padding: 25px 0;
-		background-color: var(--f3f3f3);
+        background-color: var(--f3f3f3);
         box-shadow: 5px 0 8px var(--champShadow);
         border-left: 1px solid var(--ddd);
     }
@@ -110,18 +110,28 @@
         cursor: pointer;
     }
     
-	:global(.curOwner) {
-		font-size: 0.75em;
-		color: #bbb;
-		font-style: italic;
-	}
+    :global(.curOwner) {
+        font-size: 0.75em;
+        color: #bbb;
+        font-style: italic;
+    }
+
+    /* Added slothstats-wrapper class to ensure full width and prevent horizontal scrolling */
+    .slothstats-wrapper {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 </style>
 
 <div id="home">
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            {@html homepageText }
+            <!-- Wrapped homepageText in slothstats-wrapper -->
+            <div class="slothstats-wrapper">
+                {@html homepageText}
+            </div>
             {#if enableBlog}
                 <HomePost />
             {/if}
@@ -160,7 +170,7 @@
                         <img src="{getAvatarFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year)}" class="first" alt="champion" />
                         <img src="/laurel.png" class="laurel" alt="laurel" />
                     </div>
-                    <span class="label" on:click={() => gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})} >{getTeamFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year).name}</span>
+                    <span class="label" on:click={() => gotoManager({year: podiums[0].year, leagueTeamManagers, rosterID: parseInt(podiums[0].champion)})}>{getTeamFromTeamManagers(leagueTeamManagers, podiums[0].champion, podiums[0].year).name}</span>
                 {:else}
                     <p class="center">No former champs.</p>
                 {/if}
