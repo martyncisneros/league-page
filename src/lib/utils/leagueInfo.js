@@ -389,7 +389,7 @@ export const managers = [
     "rival": {
       "name": "nobody,
       "link": null,
-      "image": "everyone/png"
+      "image": "everyone.png"
     },
     "favoritePlayer": 3164,
     "valuePosition": "RB",
