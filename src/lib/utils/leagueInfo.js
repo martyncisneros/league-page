@@ -366,7 +366,7 @@ export const managers = [
     "mode": "Rebuild",
     "rival": {
       "name": "Jordan Walker",
-      "link": #,
+      "link": 4,
       "image": "/managers/jordan.jpeg"
     },
     "favoritePlayer": 8150,
