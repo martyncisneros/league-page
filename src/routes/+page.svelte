@@ -25,7 +25,7 @@
 
     .text {
         padding: 0 30px;
-        max-width: 620px;
+        max-width: 100%; /* Changed to 100% for full width */
         margin: 0 auto;
     }
 
@@ -39,7 +39,7 @@
 
     .transactions {
         display: block;
-        width: 95%;
+        width: 100%; /* Changed to full width */
         margin: 10px auto;
     }
 
@@ -116,11 +116,11 @@
         font-style: italic;
     }
 
-    /* Added slothstats-wrapper class to ensure full width and prevent horizontal scrolling */
     .slothstats-wrapper {
-        width: 100%;
+        width: 100%; /* Ensure full width */
         max-width: 100%;
-        overflow-x: hidden;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        box-sizing: border-box;
     }
 </style>
 
@@ -128,7 +128,6 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <!-- Wrapped homepageText in slothstats-wrapper -->
             <div class="slothstats-wrapper">
                 {@html homepageText}
             </div>
