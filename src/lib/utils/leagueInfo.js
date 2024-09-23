@@ -43,31 +43,335 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 // To omit an optional field, set it's value to null
 
+ /*
+
 export const managers = [
-  [
-    {
-      "managerID": "472122103215157248",
+
+[
+  {
+    "managerID": "472122103215157248",
+    "name": "Matt Mcdermand",
+    "location": "Brooklyn, NY",
+    "bio": "You can't spell dispensary without nips. I like both.",
+    "photo": "/managers/matt_m.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Andrew Boravay",
+      "link": 5,
+      "image": "/managers/boravay.jpeg"
+    },
+    "favoritePlayer": 2078,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Just look at the nips. They'll tell you everything you need to know.",
+    "tradingScale": 10,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "364549014668136448",
+    "name": "Alan Ayon",
+    "location": "San Diego, CA",
+    "bio": "Still dreaming of One Nation Under GODwin.",
+    "photo": "/managers/alan.jpeg",
+    "fantasyStart": 2018,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Mark Huerta",
+      "link": 2,
+      "image": "/managers/mark.jpeg"
+    },
+    "favoritePlayer": 6786,
+    "valuePosition": "RB",
+    "rookieOrVets": "Vets",
+    "philosophy": "Feed CeeDee",
+    "tradingScale": 8,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "412010593113886720",
+    "name": "Mark Huerta",
+    "location": "Blacksburg, VA",
+    "bio": "I'm 0-3 against Eazy Es in the finals.",
+    "photo": "/managers/mark.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Martin Cisneros",
+      "link": 15,
+      "image": "/managers/martin.jpeg"
+    },
+    "favoritePlayer": 3294,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "I never miss a toilet scouting session. Consistency is key. If I'm on the Loo you better believe I'm in my scouting groove.",
+    "tradingScale": 8,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "78960474171260928",
+    "name": "Joe Krawzyk",
+    "location": "Phoenix, AZ",
+    "bio": "I'm the commish bitch.",
+    "photo": "/managers/joe.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Adam Polson",
+      "link": 11,
+      "image": "/managers/adam.jpeg"
+    },
+    "favoritePlayer": 4039,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Whateva, I do what I want!",
+    "tradingScale": 7,
+    "preferredContact": "FaceTime"
+  },
+  {
+    "managerID": "463483985771622400",
+    "name": "Jordan Walker",
+    "location": "Phoenix, AZ",
+    "bio": "Mr. Toilet Bowl, I'm the shit.",
+    "photo": "/managers/jordan.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Ty Callahan",
+      "link": 14,
+      "image": "/managers/ty.jpeg"
+    },
+    "favoritePlayer": 7525,
+    "valuePosition": "TE",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Bare minimum",
+    "tradingScale": 1,
+    "preferredContact": "Phone Call"
+  },
+  {
+    "managerID": "83617934131740672",
+    "name": "Andrew Boravay",
+    "location": "Phoenix, AZ",
+    "bio": "I stay game ready.",
+    "photo": "/managers/boravay.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
       "name": "Matt Mcdermand",
-      "location": "Brooklyn, NY",
-      "bio": "You can't spell dispensary without nips. I like both.",
-      "photo": "/managers/test.jpeg",
-      "fantasyStart": 2014,
-      "mode": "Win Now",
-      "rival": {
-        "name": "Andrew Boravay",
-        "link": null,
-        "image": "/managers/test.jpeg"
-      },
-      "favoritePlayer": 2078,
-      "valuePosition": "WR",
-      "rookieOrVets": "Vets",
-      "philosophy": "Just look at the nips. They'll tell you everything you need to know.",
-      "tradingScale": 10,
-      "preferredContact": "Text"
-    }
-  ]
+      "link": 0,
+      "image": "/managers/matt_m.jpeg"
+    },
+    "favoritePlayer": 167,
+    "valuePosition": "RB",
+    "rookieOrVets": "Vets",
+    "philosophy": "Win the waiver wire",
+    "tradingScale": 0,
+    "preferredContact": "Discord"
+  },
+  {
+    "managerID": "94902624901808128",
+    "name": "Andrew Carlson",
+    "location": "Phoenix, AZ",
+    "bio": "I'm the Chief Keef.",
+    "photo": "/managers/andrew.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Nick Heitzman",
+      "link": 10,
+      "image": "/managers/nick.jpeg"
+    },
+    "favoritePlayer": 7543,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Build through the draft",
+    "tradingScale": 6,
+    "preferredContact": "Discord"
+  },
+  {
+    "managerID": "473908768065712128",
+    "name": "Matt Blumenreich",
+    "location": "Stanford, CT",
+    "bio": "Go Bucking Broncos",
+    "photo": "/managers/matt_b.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Brandon Wellbourn",
+      "link": 8,
+      "image": "/managers/brandon.jpeg"
+    },
+    "favoritePlayer": 6794,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Nowhere to go but up",
+    "tradingScale": 9,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "473589039220387840",
+    "name": "Brandon Wellbourn",
+    "location": "Phoenix, AZ",
+    "bio": "They me poppa doc.",
+    "photo": "/managers/brandon.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Matt Blumenreich",
+      "link": 7,
+      "image": "/managers/matt_b.jpeg"
+    },
+    "favoritePlayer": 3321,
+    "valuePosition": "RB",
+    "rookieOrVets": "Rookies",
+    "philosophy": "You don't need a team when you have the best keepers.",
+    "tradingScale": 4,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "473564782994124800",
+    "name": "Zach Decke",
+    "location": "Phoenix, AZ",
+    "bio": "BBQ master and fantasy football guru.",
+    "photo": "/managers/zach.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Matt Carroll",
+      "link": 13,
+      "image": "/managers/matt_c.jpeg"
+    },
+    "favoritePlayer": 4866,
+    "valuePosition": "QB",
+    "rookieOrVets": "Vets",
+    "philosophy": "Younghoe",
+    "tradingScale": 4,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "458785993529487360",
+    "name": "Nick Heitzman",
+    "location": "Phoenix, AZ",
+    "bio": "Lik Ma Rich Dick",
+    "photo": "/managers/nick.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Josh Brown",
+      "link": 12,
+      "image": "/managers/josh.jpeg"
+    },
+    "favoritePlayer": 11632,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Always be wheeling and dealing",
+    "tradingScale": 5,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "472168988340645888",
+    "name": "Adam Polson",
+    "location": "Phoenix, AZ",
+    "bio": "They call me MR. Two Time",
+    "photo": "/managers/adam.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Joe Krawzyk",
+      "link": 3,
+      "image": "/managers/joe.jpeg"
+    },
+    "favoritePlayer": 1466,
+    "valuePosition": "TE",
+    "rookieOrVets": "Vets",
+    "philosophy": "I do this",
+    "tradingScale": 4,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "473908369271287808",
+    "name": "Josh Brown",
+    "location": "Seattle, WA",
+    "bio": "Seahawks fan trying to bring home the trophy.",
+    "photo": "/managers/josh.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Nick Heitzman",
+      "link": 10,
+      "image": "/managers/nick.jpeg"
+    },
+    "favoritePlayer": 6904,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Build a balanced roster",
+    "tradingScale": 5,
+    "preferredContact": "Discord"
+  },
+  {
+    "managerID": "381887544524132352",
+    "name": "Matt Carroll",
+    "location": "Los Angeles, CA",
+    "bio": "Pacific time zone fantasy dominator.",
+    "photo": "/managers/matt_c.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Win Now",
+    "rival": {
+      "name": "Zach Decke",
+      "link": 9,
+      "image": "/managers/zach.jpeg"
+    },
+    "favoritePlayer": 7049,
+    "valuePosition": "WR",
+    "rookieOrVets": "Vets",
+    "philosophy": "Pick up the dogs",
+    "tradingScale": 4,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "601205387269570560",
+    "name": "Ty Callahan",
+    "location": "Phoenix, AZ",
+    "bio": "They call me MR. Bachelor",
+    "photo": "/managers/ty.jpeg",
+    "fantasyStart": 2014,
+    "mode": "Rebuild",
+    "rival": {
+      "name": "Jordan Walker",
+      "link": 4,
+      "image": "/managers/jordan.jpeg"
+    },
+    "favoritePlayer": 8150,
+    "valuePosition": "QB",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Go big or go home",
+    "tradingScale": 3,
+    "preferredContact": "Text"
+  },
+  {
+    "managerID": "341628238017105920",
+    "name": "Martin Cisneros",
+    "location": "Buenos Aires, ARG",
+    "bio": "3X Champ",
+    "photo": "/managers/martin.jpeg",
+    "fantasyStart": 2016,
+    "mode": "Dynasty",
+    "rival": {
+      "name": "nobody",
+      "link": null,
+      "image": "question.png"
+    },
+    "favoritePlayer": 3164,
+    "valuePosition": "RB",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Classified",
+    "tradingScale": 5,
+    "preferredContact": "Text"
+  }
 ]
-  
+    
+  ]
+  */
   
   /*   !!  !!  IMPORTANT  !!  !! */
   /*
