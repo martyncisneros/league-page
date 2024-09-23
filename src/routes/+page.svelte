@@ -18,8 +18,8 @@
     }
 
     #main {
-        order: 1;
         width: 100%;
+        order: 1;
         padding: 60px 0;
     }
 
@@ -30,31 +30,11 @@
     }
 
     .leagueData {
-        order: 2;
         width: 100%;
+        order: 2;
         background-color: var(--ebebeb);
         border-left: var(--eee);
         box-shadow: none;
-    }
-
-    @media (min-width: 951px) {
-        #home {
-            flex-direction: row;
-            align-items: flex-start;
-        }
-
-        #main {
-            flex: 1;
-            order: 1;
-        }
-
-        .leagueData {
-            order: 2;
-            width: 470px;
-            min-width: 470px;
-            max-width: 470px;
-            box-shadow: inset 8px 0px 6px -6px rgb(0 0 0 / 24%);
-        }
     }
 
     .transactions {
@@ -79,7 +59,6 @@
         font-size: 1.5em;
     }
 
-    /* champ styling */
     #currentChamp {
         padding: 25px 0;
 		background-color: var(--f3f3f3);
@@ -142,9 +121,7 @@
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
             {@html homepageText }
-            <!-- Most recent Blog Post (if enabled) -->
             {#if enableBlog}
                 <HomePost />
             {/if}
@@ -192,7 +169,7 @@
             {/await}
         </div>
 
-        <div class="transactions" >
+        <div class="transactions">
             <Transactions />
         </div>
     </div>
