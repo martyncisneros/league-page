@@ -55,7 +55,7 @@ export const managers = [
       "mode": "Win Now",
       "rival": {
         "name": "Andrew Boravay",
-        "link": 5,
+        "link": null,
         "image": "/managers/test.jpeg"
       },
       "favoritePlayer": 2078,
