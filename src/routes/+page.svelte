@@ -12,7 +12,7 @@
 <style>
     #home {
         display: flex;
-        flex-wrap: nowrap;
+        flex-direction: column;
         position: relative;
         overflow-y: hidden;
         z-index: 1;
@@ -32,26 +32,24 @@
     }
 
     .leagueData {
-        position: relative;
-        z-index: 1;
         width: 100%;
-        min-width: 470px;
-        max-width: 470px;
-        min-height: 100%;
-		background-color: var(--ebebeb);
+        background-color: var(--ebebeb);
         border-left: var(--eee);
-		box-shadow: inset 8px 0px 6px -6px rgb(0 0 0 / 24%);
+        box-shadow: none;
     }
 
-    @media (max-width: 950px) {
-        .leagueData {
-            max-width: 100%;
-            min-width: 100%;
-            width: 100%;
-		    box-shadow: none;
-        }
+    @media (min-width: 951px) {
         #home {
-            flex-wrap: wrap;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        .leagueData {
+            width: 470px;
+            min-width: 470px;
+            max-width: 470px;
+            min-height: 100%;
+            box-shadow: inset 8px 0px 6px -6px rgb(0 0 0 / 24%);
         }
     }
 
